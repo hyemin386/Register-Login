@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost", "wehosting", "wewe1998!", "wehosting");
+    $con = mysqli_connect("localhost", "호스트아이디", "비밀번호", "아이디");
     mysqli_query($con,'SET NAMES utf8');
 
     $userID = $_POST["userID"];
